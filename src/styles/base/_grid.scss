@@ -1,0 +1,18 @@
+$fields: 15px;
+
+$break_min: 320px;
+$break_max: 1920px;
+
+$break_xs: 322px;
+$break_sm: 576px;
+$break_md: 768px;
+$break_lg: 992px;
+$break_xl: 1200px;
+$break_xxl: 1400px;
+
+.container {
+    max-width: 1310px; // +15x2 padding
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}

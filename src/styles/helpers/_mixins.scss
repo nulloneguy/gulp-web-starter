@@ -1,0 +1,9 @@
+@mixin font($fname, $fstyle, $fweight, $furl) {
+    @font-face {
+        font-family: $fname;
+        font-style: $fstyle;
+        font-weight: $fweight;
+        src: url("../fonts/#{$furl}.ttf") format("ttf"), url("../fonts/#{$furl}.woff") format("woff"),
+            url("../fonts/#{$furl}.woff2") format("woff2"), url("../fonts/#{$furl}.svg\##{$fname}") format("svg");
+    }
+}
