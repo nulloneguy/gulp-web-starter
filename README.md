@@ -160,6 +160,6 @@ blocks
 ### Выгрузка на gh-pages
 
 -   измените `<USERNAME>` и `<REPO>` в `deploy.sh`. 
--   Должно получится что-то такое:  `git push -f https://github.com/nulloneguy/web-starter.git main:gh-pages`
+    -   Должно получится что-то такое:  `git push -f https://github.com/nulloneguy/web-starter.git main:gh-pages`
 -   запустите скрипт `deploy.sh` он соберёт проект и выгрузит в ваш репозиторий в ветку `gh-pages`
--   введите логин и пароль от своего github
+    -   введите логин и пароль от своего github
